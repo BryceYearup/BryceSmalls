@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.text p {
+    font-size: small;
+}
+
+.image {
+    max-width: 35%;
+    border: 1px solid #000;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+}
